@@ -1,0 +1,41 @@
+# === Azure Function: Python Backend ===
+
+# Function secrets and settings
+local.settings.json
+.secrets/
+secrets/
+appsettings.json
+
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packages
+.python_packages/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node-related (just in case)
+node_modules/
+dist/
+
+# VS Code & test output
+.vscode/
+TestResults/
+*.user
+*.suo
+
+# Azurite (local emulator) data
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+
+# Build tools
+tools/
+packages/
